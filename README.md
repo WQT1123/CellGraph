@@ -45,7 +45,8 @@ Now you have prepared raw data,let's load file with`pandas`.
 ### Set Parameters
 1. **`Sheet Name`**:The sheet you want to load.For Land you can choose `记录表`or`循环表`,for NewWay you can choose`cycle`or`report`
 2. **`Interval`**:For example,if your loop starts at 1 and ends at 100 and `Interval`=10,the selected cycles will be 1,11,21,...
-3. `Show legend`&`Show bar`:Whether show the legend/color bar or not
-4. `Select Cycle`:Select specific cycle numbers.For example,if you type `1,3,5,10`,the application  will plot curves corresponding to the cycle numbers you entered.(Must be separated by commas in English)
+3. **`Show legend`**&**`Show bar`**:Whether show the legend/color bar or not
+4. **`Select Cycle`**:Select specific cycle numbers.For example,if you type `1,3,5,10`,the application  will plot curves corresponding to the cycle numbers you entered.(Must be separated by commas in English)
 ### Attention
-If you select multiple files like A.xlsx, B.xlsx, C.xlsx, and want to assign different colors and legends, the order of the legend bars should correspond to the order of the files, similar to how the colors are assigned
+1. If you select multiple files like A.xlsx, B.xlsx, C.xlsx, and want to assign different colors and legends, the order of the legend bars should correspond to the order of the files, similar to how the colors are assigned
+2. When setting xlabel and ylabel, you should use English.If you need to input special characters or formulas, it is recommended to use LaTeX syntax (which is not difficult).
